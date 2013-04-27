@@ -1,0 +1,126 @@
+body {
+	font-size: 9pt;
+	font-family: 宋体;
+	
+	SCROLLBAR-FACE-COLOR: #DEE3E7;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #98AAB1; 
+	SCROLLBAR-3DLIGHT-COLOR: #EFEFEF; 
+	SCROLLBAR-ARROW-COLOR: #006699; 
+	SCROLLBAR-TRACK-COLOR: #F4F7F9; 
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+}
+
+table {
+	border-color: #999999;
+	border-collapse: collapse;
+	font-size:14px;
+	boder-color:#017069;
+	background-color:#DFF4E5
+}
+
+
+td {
+	font-size: 9pt;
+	font-family: 宋体;
+	wordWrap:break-word;
+}
+
+.overHidden{
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+
+th {
+	font-size: 9pt;
+	font-family: 宋体;
+	background-color: #dff4e5;
+	font-weight: normal
+}
+
+select {
+	font-size: 9pt;
+	font-family: 宋体;
+}
+
+input {
+	font-size: 9pt;
+	font-family:宋体;
+}
+
+input.gray {
+	border:0px solid #000000;
+ 	background-color:#ECECEC;
+}
+
+input.plain { 
+	border:0px solid #000000;
+	background-color:#FFFFFF;
+}
+
+textarea {
+	font-size: 9pt;
+	font-family: 宋体;
+}
+
+caption {
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #ffffff
+}
+
+A {
+	text-decoration: none;
+	font-family:宋体;
+}
+
+A:hover {
+	text-decoration: underline;
+	font-family:宋体;
+}
+
+
+#queryTable {
+	font-size:14px;
+	boder-color:#017069;
+	background-color:#DFF4E5
+}
+
+@media print{	
+	.noprint{ 
+		display: none;
+	}
+
+	table, tr, th, td {
+		color: #000000;
+		position: static;	
+	}
+
+	#queryTable {
+		display: none;
+	}
+
+}
+
+.numtext { text-align: right;   }
+
+TABLE.firstPage{
+	border-color: #92C6E4;
+	border-collapse: collapse;
+	table-layout:fixed;
+}
+
+
+TD.firstPage{
+	overflow: hidden; 
+	white-space: nowrap; 
+	text-overflow: ellipsis;
+    font-size: 12px;
+}
+SPAN.firstPage{
+	overflow: hidden; 
+	white-space: nowrap; 
+	text-overflow: ellipsis;
+    font-size: 12px;   
+}
+

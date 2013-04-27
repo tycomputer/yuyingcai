@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+  http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+  http://www.springframework.org/schema/aop 
+  http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+  http://www.springframework.org/schema/tx 
+  http://www.springframework.org/schema/tx/spring-tx-2.0.xsd" >
+
+	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">   
+		<property name="location">   
+			<value>/WEB-INF/config/config.properties</value>   
+		</property>   
+	</bean>
+
+
+	<bean id="springUtil" class="com.tycomputer.common.util.SpringUtil" scope="singleton"></bean>
+
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="mappingResources">
+			<list>
+				<value>com/tycomputer/yyc/entity/yycNews.hbm.xml</value>
+				<value>com/tycomputer/yyc/entity/yycForm.hbm.xml</value>
+				<value>com/tycomputer/yyc/entity/YycContentType.hbm.xml</value>
+				<value>com/tycomputer/yyc/entity/YycContent.hbm.xml</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.query.factory_class">org.hibernate.hql.ast.ASTQueryTranslatorFactory</prop>
+				<prop key="hibernate.connection.useUnicode">true</prop>
+                <prop key="hibernate.connection.characterEncoding">UTF-8</prop>
+				<prop key="hibernate.use_outer_join">true</prop>
+				<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>		
+				<prop key="hibernate.cache.use_query_cache">true</prop>
+   				<prop key="hibernate.show_sql">false</prop>
+   				<prop key="hibernate.jdbc.fetch_size">50</prop>
+				<prop key="hibernate.jdbc.batch_size">30</prop>
+				<prop key="show_sql">false</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">   
+		<property name="sessionFactory">   
+			<ref bean="sessionFactory" />   
+		</property>   
+	</bean>
+	
+	<bean id="baseTransactionProxy" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean" abstract="true">   
+		<property name="transactionManager" ref="transactionManager" />   
+		<property name="transactionAttributes">   
+		<props>   
+			<prop key="add*">PROPAGATION_REQUIRED</prop>   
+			<prop key="edit*">PROPAGATION_REQUIRED</prop>   
+			<prop key="del*">PROPAGATION_REQUIRED</prop>   
+			<prop key="save*">PROPAGATION_REQUIRED</prop>   
+			<prop key="update*">PROPAGATION_REQUIRED</prop>
+			<prop key="*">PROPAGATION_REQUIRED,readOnly</prop>			
+		</props>   
+		</property>   
+	</bean>
+	
+	<bean id="dao" class="org.springframework.orm.hibernate3.HibernateTemplate">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	
+	<bean id="jdbc" class="com.tycomputer.common.util.JDBCUtil">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	
+
+
+</beans>

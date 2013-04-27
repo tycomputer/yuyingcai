@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.tycomputer.yyc.entity.YycNews" table="yyc_news" lazy="false">
+        <id name="uuid" type="java.lang.String">
+            <column name="UUID" length="32" />
+            <generator class="uuid.hex" />
+        </id>
+        <property name="newsTitle" type="java.lang.String">
+            <column name="NEWS_TITLE" length="128" not-null="true" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="DESCRIPTION" length="16777215" />
+        </property>
+        <property name="flag" type="java.lang.String">
+            <column name="FLAG" length="1" not-null="true" />
+        </property>
+        <property name="addData" type="java.util.Calendar">
+            <column name="ADD_DATA" length="0" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

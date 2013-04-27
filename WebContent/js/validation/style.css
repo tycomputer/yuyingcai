@@ -1,0 +1,117 @@
+body {
+	font-size: 9pt;
+	font-family: ����;
+	background-color:#DFF4E5;
+	SCROLLBAR-FACE-COLOR: #DEE3E7;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #98AAB1; 
+	SCROLLBAR-3DLIGHT-COLOR: #EFEFEF; 
+	SCROLLBAR-ARROW-COLOR: #006699; 
+	SCROLLBAR-TRACK-COLOR: #F4F7F9; 
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+}
+table {
+	border-color: #999999;
+	border-collapse: collapse;
+	font-size:14px;
+	boder-color:#017069;
+	background-color:#DFF4E5
+}
+
+
+td {
+	font-size: 9pt;
+	font-family: ����;
+}
+
+th {
+	font-size: 9pt;
+	font-family: ����;
+	background-color: #dff4e5;
+	font-weight: normal
+}
+.panel {
+	clear: both;
+	display: none;
+	border: 3px solid #CCC;
+	padding: 1em;
+}
+.panel.active-tab-body {
+	display: block;
+}
+#tabs {
+	list-style: none;
+}
+
+#tabs li {
+	float: left;
+}
+
+#tabs a {
+	float: left;
+	padding: 5px 8px;
+	margin-left: 6px;
+	background-color: #F2F2F2;
+	text-decoration: none;
+	color: #999999;
+}
+
+#tabs a.active-tab {
+	background-color: #CCC;
+	border-top: 3px solid #999;
+	padding-top: 3px;
+	color: #000;
+}
+input.disabled {
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+}
+
+input.required, textarea.required {
+	border: 1px solid #00A8E6;
+}
+input.validation-failed, textarea.validation-failed {
+	border: 1px solid #FF3300;
+	color : #FF3300;
+}
+input.validation-passed, textarea.validation-passed {
+	border: 1px solid #00CC00;
+	color : #000;
+}
+
+.validation-advice {
+	margin: 0px 0px 0px 5px;
+	padding: 5px;
+	color : #FF0000;
+	font-weight: bold;
+	display:inline
+}
+
+.custom-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #C8AA00;
+	color : #FFF;
+	font-weight: bold;
+}
+
+fieldset {
+	padding: 1em;
+	margin-bottom: 0.5em;
+}
+
+label {
+	font-weight: bold;
+}
+.form-row {
+	clear: both;
+	padding: 0.5em;
+}
+
+.field-label {
+
+}
+
+.field-widget {
+
+}

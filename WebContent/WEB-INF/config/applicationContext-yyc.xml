@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+  http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+  http://www.springframework.org/schema/aop 
+  http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+  http://www.springframework.org/schema/tx 
+  http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+
+
+	<bean id="yycNewsService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.yyc.manager.service.YycNewsServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="yycFormService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.yyc.manager.service.YycFormServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+
+	
+
+	<bean id="yycBmService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.yyc.manager.service.YycBmServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+	<bean id="yycContentService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.yyc.manager.service.YycContentServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="yycGenHtmlService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.yyc.manager.service.YycGenhtmlServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+
+
+	<bean id="yycFtpService" class="com.tycomputer.yyc.manager.service.FtpServiceImpl">
+		<property name="username">
+			<value>${ftp.username}</value>
+		</property>
+		<property name="port">
+			<value>${ftp.port}</value>
+		</property>
+		<property name="hostname">
+			<value>${ftp.hostname}</value>
+		</property>
+		<property name="password">
+			<value>${ftp.password}</value>
+		</property>
+		<property name="localPath">
+			<value>${ftp.localPath}</value>
+		</property>
+		<property name="remotePath">
+			<value>${ftp.remotePath}</value>
+		</property>
+	</bean>
+
+	<!-- <bean id="hjshowedPresentService" parent="baseTransactionProxy"> <property 
+		name="target"> <bean class="com.tycomputer.hj.manager.service.ShowedPresentServiceImpl"> 
+		<property name="dao" ref="dao" /> </bean> </property> </bean> -->
+</beans>
