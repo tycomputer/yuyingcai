@@ -116,7 +116,7 @@
 				</tr>
 				<tr>
 					<td>&nbsp;</td>
-					<td width="300" height="30" align="center" class="title3"><a name="top"></a> ${content.contTitle}</td>
+					<td height="30" align="center" class="title3"><a name="top"></a> ${content.contTitle}</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>

@@ -6,7 +6,7 @@ CREATE TABLE yyc_content_type (
   OUT_DIR varchar(50) NOT NULL ,
   FLAG varchar(1) NOT NULL ,
   PRIMARY KEY (TYPE_ID)
-)
+);
 
 CREATE TABLE yyc_content (
   CONT_ID int NOT NULL,

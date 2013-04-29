@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Mon Apr 29 16:50:30 CST 2013:
+ 正在使用类加载器 sun.misc.Launcher$AppClassLoader@535ff48b 引导数据库
+目录 /Users/zhangliuhua/developer/workspace/tycomputer/yuyingcai/tyDerby  中的 Derby 版本 The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872) 实例 a816c00e-013e-54fc-7244-000004685658
+
+java.vendor=Apple Inc.
+java.runtime.version=1.6.0_45-b06-451-11M4406
+user.dir=/Users/zhangliuhua/developer/workspace/tycomputer/yuyingcai
+derby.system.home=null
+数据库类装入器已启动 － derby.database.classpath=“”

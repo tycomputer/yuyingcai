@@ -12,11 +12,11 @@
 <table border="1" width="80%">
 
 	<tr>
-		<td><a href="yyc/yycContent.do">维护内容管理</a></td>
+		<td><a href="yycmanager/yycContent.do">维护内容管理</a></td>
 	</tr>
 	
 	<tr>
-		<td><a href="yyc/yycGenHtml.do">生成html，上传html</a></td>
+		<td><a href="yycmanager/yycGenHtml.do">生成html，上传html</a></td>
 	</tr>
 <%	
 	//<tr>
@@ -24,7 +24,7 @@
 	//</tr>
 	 %>
 	<tr>
-		<td><a href="yyc/yycForms.do">提交信息管理</a></td>
+		<td><a href="yycmanager/yycForms.do">提交信息管理</a></td>
 	</tr>
 	
 </table>

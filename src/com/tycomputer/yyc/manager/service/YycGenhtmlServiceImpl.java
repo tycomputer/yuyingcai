@@ -81,7 +81,7 @@ public class YycGenhtmlServiceImpl implements IYycGenhtmlService {
 				t = cfg.getTemplate("yycSitemapXml.ftl");
 				t.setEncoding("UTF-8");
 				t.setOutputEncoding("UTF-8");
-				page = new File(sc.getRealPath("/") + "/html/yyc/Sitemap.xml");
+				page = new File(sc.getRealPath("/") + "/html/Sitemap.xml");
 				out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(page), "UTF-8"));
 				map = new HashMap();
 				map.put("contentList", newsList);

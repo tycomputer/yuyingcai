@@ -5,21 +5,22 @@
 <struts>
 
 	<include file="struts-default.xml" />
-	<package name="default" extends="struts-default">
+	
+	<package name="yycmanager" extends="struts-default" namespace="/yycmanager">
 		<action name="yycNews" class="com.tycomputer.yyc.manager.action.YycNewsAction">
-			<result name="list">/yyc/manager/yycNewsList.jsp</result>
-			<result name="add">/yyc/manager/addYycNews.jsp</result>
+			<result name="list">/yyc/yycNewsList.jsp</result>
+			<result name="add">/yyc/addYycNews.jsp</result>
 		</action>
 		<action name="yycContent" class="com.tycomputer.yyc.manager.action.YycContentAction">
-			<result name="list">/yyc/manager/yycContentList.jsp</result>
-			<result name="add">/yyc/manager/addYycContent.jsp</result>
+			<result name="list">/yyc/yycContentList.jsp</result>
+			<result name="add">/yyc/addYycContent.jsp</result>
 		</action>
 		<action name="yycForms" class="com.tycomputer.yyc.manager.action.YycFormAction">
-			<result name="list">/yyc/manager/yycFormList.jsp</result>
-			<result name="add">/yyc/manager/addYycForm.jsp</result>
+			<result name="list">/yyc/yycFormList.jsp</result>
+			<result name="add">/yyc/addYycForm.jsp</result>
 		</action>
 		<action name="yycGenHtml" class="com.tycomputer.yyc.manager.action.YycGenhtmlAction">
-			<result name="list">/yyc/manager/yycGenhtml.jsp</result>
+			<result name="list">/yyc/yycGenhtml.jsp</result>
 		</action>
 	</package>
 	

@@ -28,7 +28,7 @@
 	
 		<td colspan="8">			
 			<s:form action="yycNews">
-				<a href="yycmanager/yycNews!addNews.do" >添加新闻</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="yyc/manager/managerMenu.jsp">返回</a>
+				<a href="yycmanager/yycNews!addNews.do" >添加新闻</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="yyc/managerMenu.jsp">返回</a>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				新闻标题：<s:textfield name="form.searchNewsTitle" id="form.searchNewsTitle" />				
 				<input type="submit" value="搜索" />

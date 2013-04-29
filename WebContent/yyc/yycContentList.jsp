@@ -30,7 +30,7 @@
 	
 		<td colspan="8">			
 			<s:form action="yycContent">
-				<a href="yycmanager/yycContent!addContent.do" >添加网站内容</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="yyc/manager/managerMenu.jsp">返回</a>
+				<a href="yycmanager/yycContent!addContent.do" >添加网站内容</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="yyc/managerMenu.jsp">返回</a>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				网站内容类别：<ty:sqlSelect name="form.searchTypeId" emptyOption="true" sql="select t.typeId,t.typeName from YycContentType t " />	
 				网站内容标题：<s:textfield name="form.searchContTitle" id="form.searchContTitle" />				

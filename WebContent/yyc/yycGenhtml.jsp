@@ -17,7 +17,7 @@
 </head>
 <body>
 <h1>生成静态网站</h1>
-<a href="yyc/manager/managerMenu.jsp">返回</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="yyc/managerMenu.jsp">返回</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="html/index.html" target="_blank">查看生成的html</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="http://www.yuyingcai.com.cn/" target="_blank">打开国内服务器的网站</a><br><br>
 <hr>

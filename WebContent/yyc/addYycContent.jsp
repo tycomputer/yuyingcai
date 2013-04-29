@@ -53,7 +53,7 @@
 		<tr>
 			<td>新闻内容</td>
 			<td>
-				<FCK:editor instanceName="form.contDesc" height="400px" width="80%" toolbarSet="ty">
+				<FCK:editor instanceName="form.contDesc" height="400px" width="80%">
 					<jsp:attribute name="value">
 					<%
 					YycContentForm form = (YycContentForm)request.getAttribute("form"); out.print(form.getContDesc());
