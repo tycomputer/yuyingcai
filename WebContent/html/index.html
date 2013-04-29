@@ -17,7 +17,8 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$("#navUl").offset($("#navtable").offset());
-			generateSprites(".nav", "current-", true, 150, "slide");		
+			generateSprites(".nav", "current-", true, 150, "slide");	
+			$("#s0").attr("src","imgs/slider/6.jpg");
 			$("#s5").attr("src","imgs/slider/6.jpg");
 			$("#s1").attr("src","imgs/slider/1.jpg");
 			$("#s2").attr("src","imgs/slider/2.jpg");
@@ -41,7 +42,7 @@
 			ee = [e1,e2,e3,e4,e5,e6,e7,e8,e9,e10,e11,e12,e13,e14];		
 			var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', width: 710, height: 331, effects: ee,
 				display: {
-					autoplay: 3000,
+					autoplay: 6000,
 					loading: {background: '#000000', opacity: 0.5, image: 'css/loading.gif'},
 					buttons: {hide: true, opacity: 1, prev: {className: 'SliderNamePrev_2', label: ''}, next: {className: 'SliderNameNext_2', label: ''}}
 				}
@@ -106,8 +107,8 @@
 					<li class="home"><a href='javascript:void(0);'>主页</a></li>
 					<li class="about"><a href='about/about.html'>关于育英才</a></li>					
 					<li class="qsedu"><a href='koucai/classes.html'>口才与情商</a></li>
-					<li class="services"><a href='eq/eq.html'>情商教育</a></li>
-					<li class="hzyuan"><a href='news/list.html'>风采展示</a></li>
+					<li class="services"><a href='eq/eq.html'>亲子园</a></li>
+					<li class="hzyuan"><a href='news/list.html'>新闻中心</a></li>
 					<li class="contactn"><a href='contact/contact.html'>联系我们</a></li>
 				</ul>
 			</td>
@@ -118,11 +119,13 @@
 			<td width="7">&nbsp;</td>
 			<td width="710" height="331" align="center" valign="top" class="bg1">
 				<div id="SliderName_2" class="SliderName_2">
+					<a href="eq/eq.html" target="_blank"><img id="s0" width="710" height="331"/></a>
 					<img id="s1" width="710" height="331"/>				
 					<img id="s2" width="710" height="331"/>
 					<img id="s3" width="710" height="331"/>
 					<img id="s4" width="710" height="331"/>
 					<img id="s5" width="710" height="331"/>
+					
 				</div>
 			</td>
 			<td width="249" align="center" valign="top">
