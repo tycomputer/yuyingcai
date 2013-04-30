@@ -10,121 +10,133 @@
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/about/about.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/about/aboutManager.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/about/aboutAuthority.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/koucai/koucai.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/koucai/teacher.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/koucai/eqabout.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/koucai/online.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/jsp/eq/eq.jsp</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/koucai/bm.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/eq/eq.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/eq/eqteacher.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/eq/eqabout.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/eq/howto.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/eq/12.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/eq/kc.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/eq/kc1.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/contact/contact.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/contact/hr.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/contact/online.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.yuyingcai.com.cn/contact/contact.html</loc>
-		<lastmod>2011-6-1</lastmod>
+		<lastmod>2013-5-1</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.yuyingcai.com.cn/contact/wonderful.html</loc>
+		<lastmod>2013-5-1</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.yuyingcai.com.cn/eq/acti.html</loc>
+		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

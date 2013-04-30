@@ -1,5 +1,5 @@
 var _menu="	<tr>"
-+"		<td height='22' align='center' background='../imgs/bg_nav_left01.gif'><a href='list.html' class='menu1' style='color: #992e00'>风采展示</a></td>"
++"		<td height='22' align='center' background='../imgs/bg_nav_left01.gif'><a href='list.html' class='menu1' style='color: #992e00'>新闻中心</a></td>"
 +"	</tr>"
 +"	<tr>"
 +"		<td height='22' align='center' background='../imgs/bg_nav_left01.gif'><a href='contact.html' class='menu1' style='color: #992e00'>联系我们</a></td>"

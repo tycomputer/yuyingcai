@@ -18,7 +18,7 @@
 		$(document).ready(function(){
 			$("#navUl").offset($("#navtable").offset());
 			generateSprites(".nav", "current-", true, 150, "slide");	
-			$("#s0").attr("src","imgs/slider/6.jpg");
+			$("#s0").attr("src","imgs/slider/7.jpg");
 			$("#s5").attr("src","imgs/slider/6.jpg");
 			$("#s1").attr("src","imgs/slider/1.jpg");
 			$("#s2").attr("src","imgs/slider/2.jpg");
@@ -56,6 +56,7 @@
 			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			$(window).scroll(function() {$("#floatQQ").css("top", ($(window).scrollTop() + 80) + 'px' );});
 			})();
 		});
 	</script>
@@ -170,7 +171,7 @@
 					<IMG src="imgs/t1.gif" width="236" height="100" border=0>
 				</a>
 			</td>
-			<td width="236" align="center" valign="top">
+			<td width="236" align="center" valign="top" bgcolor="#FDF7EE" class="bg1">
 				<a href="koucai/bm.html" target="_blank">
 					<IMG src="imgs/t2.gif" width="236" height="100" border=0>
 				</a>
@@ -227,38 +228,32 @@
 					<td height='25' align='center'><a href='../koucai/eqabout.html'>什么是情商教育？</a></td>
 				</tr>
 				<tr>
-					<td height='25' align='center'><a href='../koucai/online.html'>在线咨询</a></td>
+					<td height='25' align='center'><a href='../koucai/eqteacher.html'>情商指导师师资</a></td>
 				</tr>
 				<tr>
-					<td height='25' align='center'><a href='../koucai/bm.html'>在线报名</a></td>
+					<td height='25' align='center'><a href='../koucai/eqabout.html'>什么是情商教育?</a></td>
+				</tr>
+				<tr>
+					<td height='25' align='center'><a href='../koucai/howto.html'>如何培养情商?</a></td>
+				</tr>
+				<tr>
+					<td height='25' align='center'><a href='../koucai/12.html'>教育孩子12法则</a></td>
 				</tr>
 			</table>
 		</td>
 
 		<td width='190' align='center' valign='top'><table class='bjnull' width='80%' border='0' cellspacing='0' cellpadding='0'>
 				<tr>
-					<td height='25' align='center'><strong><a href='../eq/eq.html'>情商教育</a> </strong></td>
+					<td height='25' align='center'><strong><a href='../eq/eq.html'>关于亲子营</a> </strong></td>
 				</tr>
 				<tr>
-					<td height='25' align='center'><a href='../eq/eq.html'>情商指导师培训课程</a></td>
+					<td height='25' align='center'><a href='../eq/eq.html'>亲子营</a></td>
 				</tr>
 				<tr>
-					<td height='25' align='center'><a href='../eq/eqteacher.html'>情商指导师师资</a></td>
+					<td height='25' align='center'><a href='../eq/acti.html'>亲子营活动介绍</a></td>
 				</tr>
 				<tr>
-					<td height='25' align='center'><a href='../eq/eqabout.html'>什么是情商教育?</a></td>
-				</tr>
-				<tr>
-					<td height='25' align='center'><a href='../eq/howto.html'>如何培养情商?</a></td>
-				</tr>
-				<tr>
-					<td height='25' align='center'><a href='../eq/12.html'>教育孩子12法则</a></td>
-				</tr>
-				<tr>
-					<td height='25' align='center'><a href='../eq/kc.html'>情商沙盘</a></td>
-				</tr>
-				<tr>
-					<td height='25' align='center'><a href='../eq/kc1.html'>专注力训练课程</a></td>
+					<td height='25' align='center'><a href='../eq/wonderful.html'>精彩回顾</a></td>
 				</tr>
 			</table>
 		</td>
@@ -295,12 +290,13 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td height='30' colspan='7' align='center' valign='top'>
+		<td height='30' colspan='3' align='center' valign='top'>
 			<DIV>
-				Copyright ◎ 2010 Beijing YuYingCai Education Technology Co., Ltd.<BR> 北京育英才教育科技有限责任公司 <a href='http://www.miibeian.gov.cn/' target='_blank'>京ICP证12021782号</a>
+				Copyright ◎ 2010 Beijing YuYingCai Education Technology Co., Ltd.<BR> 北京育英才教育科技有限责任公司 <a href='http://www.miibeian.gov.cn/' target='_blank'>京ICP备12021782号-1</a>
 			</DIV></td>
 		<td>&nbsp;</td>
-	</tr>;
+	</tr>
 	</table>
+<div id='floatQQ'  style='POSITION: absolute; WIDTH: 151px; HEIGHT: 93px; RIGHT: 0px; TOP: 80px'><a target='_blank' href='http://wpa.qq.com/msgrd?v=3&uin=2559315973&site=qq&menu=yes'><img border='0' src='http://wpa.qq.com/pa?p=2:2559315973:53' alt='在线咨询' title='在线咨询'/></a></div>
 </body>
 </html>

@@ -145,7 +145,7 @@
 					<td height="25">·</td>
 					<td align="left"><a href='news${content.contId}.html' target="_blank">${content.contTitle}</a>
 					</td>
-					<td align="right" class="date">${content.contDate}</td>
+					<td align="right" nowrap="nowrap" class="date">${content.contDate}</td>
 				</tr>
 				</#list>				
 		</tbody>
@@ -178,5 +178,6 @@
 </table>
 <table id="_footer" width='958' border='0' align='center' cellpadding='0' cellspacing='0' background='../imgs/footer-bg.jpg'>
 </table>
+<div id='floatQQ'  style='POSITION: absolute; WIDTH: 151px; HEIGHT: 93px; RIGHT: 0px; TOP: 80px'><a target='_blank' href='http://wpa.qq.com/msgrd?v=3&uin=2559315973&site=qq&menu=yes'><img border='0' src='http://wpa.qq.com/pa?p=2:2559315973:53' alt='在线咨询' title='在线咨询'/></a></div>
 </body>
 </html>
