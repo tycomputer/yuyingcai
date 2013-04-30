@@ -50,12 +50,7 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
-	<url>
-		<loc>http://www.yuyingcai.com.cn/jsp/eq/eq.jsp</loc>
-		<lastmod>2013-5-1</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
+
 	<url>
 		<loc>http://www.yuyingcai.com.cn/koucai/bm.html</loc>
 		<lastmod>2013-5-1</lastmod>
@@ -69,37 +64,55 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.yuyingcai.com.cn/eq/eqteacher.html</loc>
+		<loc>http://www.yuyingcai.com.cn/eq/acti.html</loc>
 		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.yuyingcai.com.cn/eq/eqabout.html</loc>
+		<loc>http://www.yuyingcai.com.cn/eq/actiFeat.html</loc>
 		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.yuyingcai.com.cn/eq/howto.html</loc>
+		<loc>http://www.yuyingcai.com.cn/eq/bm.html</loc>
 		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.yuyingcai.com.cn/eq/12.html</loc>
+		<loc>http://www.yuyingcai.com.cn/koucai/eqteacher.html</loc>
 		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.yuyingcai.com.cn/eq/kc.html</loc>
+		<loc>http://www.yuyingcai.com.cn/koucai/eqabout.html</loc>
 		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.yuyingcai.com.cn/eq/kc1.html</loc>
+		<loc>http://www.yuyingcai.com.cn/koucai/howto.html</loc>
+		<lastmod>2013-5-1</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.yuyingcai.com.cn/koucai/12.html</loc>
+		<lastmod>2013-5-1</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.yuyingcai.com.cn/koucai/kc.html</loc>
+		<lastmod>2013-5-1</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.yuyingcai.com.cn/koucai/kc1.html</loc>
 		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
@@ -129,7 +142,7 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.yuyingcai.com.cn/contact/wonderful.html</loc>
+		<loc>http://www.yuyingcai.com.cn/eq/wonderful.html</loc>
 		<lastmod>2013-5-1</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
