@@ -13,7 +13,6 @@
 	<meta name="Description" content="北京育英才教育是集0-6岁的婴幼儿师资培养、幼儿园、电子商务、互联网服务为一体的综合性婴幼儿教育服务品牌." />
 	<script src="../js/yyc.js" type="text/javascript"></script>
 	<script src="menu.js" type="text/javascript"></script>
-	<script src="../js/g.js" type="text/javascript"></script>
 </head>
 <body text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 	<table width="972" border="0" class="bjClass" align="center" cellpadding="0" cellspacing="0">
@@ -178,6 +177,11 @@
 </table>
 <table id="_footer" width='958' border='0' align='center' cellpadding='0' cellspacing='0' background='../imgs/footer-bg.jpg'>
 </table>
-<div id='floatQQ'  style='POSITION: absolute; WIDTH: 151px; HEIGHT: 93px; RIGHT: 0px; TOP: 80px'><a target='_blank' href='http://wpa.qq.com/msgrd?v=3&uin=2559315973&site=qq&menu=yes'><img border='0' src='http://wpa.qq.com/pa?p=2:2559315973:53' alt='在线咨询' title='在线咨询'/></a></div>
+<div id='floatQQ'  style='POSITION: absolute; WIDTH: 151px; HEIGHT: 93px; RIGHT: 0px; TOP: 80px'><a target='_blank' href='http://wpa.qq.com/msgrd?v=3&uin=2559315973&site=qq&menu=yes'><img border='0' src='../imgs/button_131.gif' alt='在线咨询' title='在线咨询'/></a></div>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd9053ae5b3e097518a53609b5fa336c3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
 </body>
 </html>
