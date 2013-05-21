@@ -29,14 +29,7 @@ var _menu="	<tr>"
 +"		<td height='1'></td>"
 +"	</tr>";
 
-var _acti="	<tr>"
-	+"		<td height='22' align='center' background='../imgs/bg_nav_left01.gif'><a href='bjSummerCamp.html' class='menu1' style='color: #992e00'>我来北京过暑假</a></td>"
-	+"	</tr>"
-	+"	<tr>"
-	+"		<td height='1'></td>"
-	+"	</tr>"
-	+"	</tr>"
-	+ "	<tr>"
+var _acti= "	<tr>"
 	+"		<td height='22' align='center' background='../imgs/bg_nav_left01.gif'><a href='happyWeekend.html' class='menu1' style='color: #992e00'>2013年5月11日亲子营训活动</a></td>"
 	+"	</tr>"
 	+"	<tr>"
@@ -63,7 +56,15 @@ var _acti="	<tr>"
 	+"	<tr>"
 	+"		<td height='30' align='center'>&nbsp;</td>"
 	+"	</tr>";
+
+var _summer="	<tr>"
+	+"		<td height='22' align='center' background='../imgs/bg_nav_left01.gif'><a href='bjSummerCamp.html' class='menu1' style='color: #992e00'>我来北京过暑假</a></td>"
+	+"	</tr>"
+	+"	<tr>"
+	+"		<td height='1'></td>"
+	+"	</tr>";
 $(document).ready(function(){
 	$("#_menu").html(_menu);
 	$("#_acti").html(_acti);
+	$("#_summer").html(_summer);
 });
