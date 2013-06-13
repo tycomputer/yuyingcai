@@ -62,6 +62,12 @@ var _summer="	<tr>"
 	+"	</tr>"
 	+"	<tr>"
 	+"		<td height='1'></td>"
+	+"	</tr>"
+	+"	<tr>"
+	+"		<td height='22' align='center' background='../imgs/bg_nav_left01.gif'><a href='koucaiSummerCamp.html' class='menu1' style='color: #992e00'>“铁齿铜牙”户外拓展夏令营</a></td>"
+	+"	</tr>"
+	+"	<tr>"
+	+"		<td height='1'></td>"
 	+"	</tr>";
 $(document).ready(function(){
 	$("#_menu").html(_menu);
